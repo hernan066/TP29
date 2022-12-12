@@ -3,6 +3,7 @@ import { ContentRowMovies } from "./ContentRowMovies";
 import { Genres } from "./Genres";
 import { LastMovies } from "./LastMovies";
 import { Navbar } from "./Navbar";
+import { TableMovies } from "./TableMovies";
 
 export const Main = () => {
   return (
@@ -23,6 +24,7 @@ export const Main = () => {
           <LastMovies />
           <Genres />
         </div>
+        <TableMovies />
       </div>
      
     </div>
